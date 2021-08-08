@@ -207,4 +207,4 @@ a span:nth-child(4){
 
 Assim a nossa página fica da seguinte forma:
 
-* ![1 Dia Botão Brilhante Néon](Desafios\Dia_1\1 dia botão brilhante.gif)
+* ![1 Dia Botão Brilhante Néon](Desafios/Dia_1/1 dia botão brilhante.gif)
