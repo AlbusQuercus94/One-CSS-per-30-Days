@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html lang="pt">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Neumorfismo em Design de Fomulário Login e Sign Up</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <!-- Começamos com o <body/body> no HTML com uma <div></div> com classe nomeada 'main'. O código fica assim: -->
+    <div class="main">
+        <!-- O próximo passo é criar a área de Registro (Sign Up) em uma <div></div> separada. Nela ficará os ícones de para um registro com uma conta já existente de uma rede social — aqui teremos os ícones do Facebook, Twitter e LinkedIn — ou criar uma conta no site. Teremos o seguinte código: -->
+        <div class="container a-container" id="a-container">
+            <form class="form" id="a-form" method="" action="">
+                <h2 class="title">Criar uma Conta</h2>
+                <div class="form_icons">
+                    <img class="form_icon" src="./Icons/facebook_icon.svg" alt="facebook_icon"/>
+                    <img class="form_icon" src="./Icons/linkedin_icon.svg" alt="linkedin_icon"/>
+                    <img class="form_icon" src="./Icons/twitter_icon.svg" alt="twitter_icon"/>
+                </div>
+                <span class="form_sapn"> ou registre-se com um email</span>
+                <input class="form_input" type="text" placeholder="Nome" />
+                <input class="form_input" type="text" placeholder="Email" />
+                <input class="form_input" type="password" placeholder="Senha" />
+                <button class="button submit">Inscrever-se</button>
+            </form>
+        </div>
+        <!-- Agora vamos criar a área para o Entrar (Login). Aqui vai seguir o mesmo molde o anterior, com algumas modificações. Invés de usar uma rede social para se registrar, aqui usaremos as mesmas para entrar (fazer login). Mudaremos o botão de "Inscrever-se" para um de "Entrar" e adicionar um elemento âncora para "Esqueci a Senha". -->
+        <div class="container b-container" id="b-container">
+            <form class="form" id="b-form" method="" action="">
+                <h2 class="title">Entrar no Website</h2>
+                <div class="form_icons">
+                    <img class="form_icon" src="./Icons/facebook_icon.svg" alt="facebook_icon"/>
+                    <img class="form_icon" src="./Icons/linkedin_icon.svg" alt="linkedin_icon"/>
+                    <img class="form_icon" src="./Icons/twitter_icon.svg" alt="twitter_icon"/>
+                </div>
+                <span class="form_span"> ou entre com sua conta de email</span>
+                <input class="form_input" type="text" placeholder="Email" />
+                <input class="form_input" type="password" placeholder="Password">
+                <a class="form_link">Esqueceu a senha?</a>
+                <button class="button submit">Entrar</button>
+            </form>
+        </div>
+        <!-- Agora vamos fazer uns encartes onde será separado os dois formulários e botões para trocar de um formulário para outro. Quando o lado de Registro estiver a mostra, invés de mostrar o Entrar será apresentado um encarte de "Bem-vindo de Volta" com o botão de Entrar. Ao ser acionado, ocorrerá o inverso, onde o formulário "Entrar" será apresentado enquanto o de "Registro" ficará oculto com uma tela de "Olá Amigo" e um botão de "Inscrever-se". O código a seguir será usado em conjunto para funcionar. -->
+        <div class="switch" id="switch-cnt">
+            <div class="switch_circle"></div>
+            <div class="switch_circle switch_circle--t"></div>
+            <div class="switch_container" id="switch-c1">
+                <h2 class="title">Welcome back!</h2>
+                <p class="description">Para manter-se conectado conosco por favor entre com suas informações</p>
+                <button class="switch_button button switch-btn">Entrar</button>
+            </div>
+            <div class="switch_contatiner is-hidden" id="switch-c2">
+                <h2 class="switch_title title">Hello Friend!</h2>
+                <p class="description">Entre com suas informações e começa uma jornada conosco.</p>
+                <button class="switch_button button switch-btn">Inscrever-se</button>
+            </div>
+        </div>
+    </div>
+    <script src="./script.js"></script>
+</body>
+</html>
