@@ -92,7 +92,7 @@ Agora vamos para a parte mais extensa do código, a estilização do html. Aqui 
 
 Nesse ponto, nossa página estará assim:
 
-![Dia 2 Sem CSS](#)
+![Dia 2 Sem CSS](https://github.com/AlbusQuercus94/One-CSS-per-30-Days/blob/main/Desafios/Dia_2/imagens/HTML-feito.png)
 
 Primeiro vamos para importar a fonte a ser utilizada, a estilização padrão com o seletor *, a estilização do <body></body> e da <div></div> cuja a classe é "main".
 
@@ -421,4 +421,4 @@ window.addEventListener('load', mainF);
 
 No fim, nossa página estará assim:
 
-![Dia 2 Resultado](#)
+![Dia 2 Resultado](https://github.com/AlbusQuercus94/One-CSS-per-30-Days/blob/main/Desafios/Dia_2/imagens/Dia%202%20Resultado.gif)
