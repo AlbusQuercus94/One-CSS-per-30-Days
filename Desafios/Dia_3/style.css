@@ -146,3 +146,133 @@ ul{
     box-shadow: -6px 0 0 0 #d5d7e3,
         6px 0 0 0 #d5d7e3;
 }
+
+.page-content{
+    display: flex;
+    flex-direction: column;
+    flex: 1;
+    padding: 40px 20px 0 20px;
+}
+
+.page-content .header{
+    font-size: 26px;
+    color: var(--main-color);
+    margin-top: 30px;
+}
+
+.content-categories{
+    display: flex;
+    justify-content: space-evenly;
+    width: 100%;
+    border-bottom: 1px solid #ddd;
+    padding: 20px 0;
+}
+
+.nav-item{
+    display: none;
+}
+
+.category{
+    font-weight: 500;
+    color: var(--secondary-color);
+    border-bottom: 1px solid #ddd;
+    transition: 0.4s ease-in;
+    padding: 20px 30px;
+    cursor: pointer;
+}
+
+#opt-1:checked + label,
+#opt-2:checked + label,
+#opt-3:checked + label,
+#opt-4:checked + label{
+    color: var(--checkbox-color);
+    border-bottom: 2px solid var(--checkbox-color);
+}
+
+.task-item{
+    display: none;
+}
+
+.task-wrapper{
+    padding: 30px 0;
+    flex: 1;
+    overflow-y: auto;
+    height: 100%;
+    padding-right: 8px;
+}
+
+.task{
+    display: flex;
+    justify-content: space-between;
+    position: relative;
+    margin-bottom: 16px;
+    padding-left: 30px;
+    color: var(--task-color);
+    font-size: 13px;
+    font-weight: 500;
+}
+
+.task:hover{
+    transform: translateX(2px);
+}
+
+.task label{
+    cursor: pointer;
+}
+
+label .label-text{
+    position: relative;
+}
+
+label .label-text:before{
+    content: '';
+    position: absolute;
+    width: 14px;
+    height: 14px;
+    border: 1px solid #ddd;
+    border-radius: 2px;
+    left: -24px;
+    transition: 0.2s ease;
+}
+
+.task-item:checked + label .label-text:before{
+    background-color: var(--checkbox-color);
+    border: none;
+    background-image: url('Icons/check_icon.svg');
+    background-repeat: no-repeat;
+    background-size: 10px;
+    background-position: center;
+    border: 1px solid var(--checkbox-color);
+}
+
+.tag{
+    font-size: 10px;
+    padding: 4px 8px;
+    border-radius: 20px;
+}
+
+.tag.approved{
+    background-color: var(--tag-color-one);
+    color: var(--tag-color-text-one);
+}
+
+.tag.progress{
+    background-color: var(--tag-color-two);
+    color: var(--tag-color-text-two);
+}
+
+.tag.review{
+    background-color: var(--tag-color-three);
+    color: var(--tag-color-text-three);
+}
+
+.tag.waiting{
+    background-color: var(--tag-color-four);
+    color: var(--tag-color-text-four);
+}
+
+.upcoming{
+    border-bottom: 1px solid #ddd;
+    padding-bottom: 30px;
+    margin-bottom: 30px;
+}
