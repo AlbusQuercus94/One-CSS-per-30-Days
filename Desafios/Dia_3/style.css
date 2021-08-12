@@ -276,3 +276,147 @@ label .label-text:before{
     padding-bottom: 30px;
     margin-bottom: 30px;
 }
+
+.members{
+    display: flex;
+    margin-top: 14px;
+}
+
+.members img{
+    border-radius: 50%;
+    width: 30px;
+    height: 30px;
+    margin-right: 4px;
+    object-fit: cover;
+}
+
+.right-bar{
+    width: 320px;
+    border-left: 1px solid #e3e7f7;
+    display: flex;
+    flex-direction: column;
+}
+
+.right-bar .header{
+    font-size: 20px;
+    color: var(--main-text-color);
+    margin-left: 30px;
+}
+
+.top-part{
+    padding: 30px;
+    align-self: flex-end;
+}
+
+.top-part img{
+    width: 14px;
+    height: 14px;
+    color: var(--main-color);
+    margin-right: 14px;
+}
+
+.top-part .count{
+    font-size: 12px;
+    border-radius: 50%;
+    width: 24px;
+    height: 24px;
+    background-color: #623ce8;
+    color: #fff;
+    justify-content: center;
+}
+
+.right-content{
+    padding: 10px 40px;
+    overflow-y: auto;
+    flex: 1;
+}
+
+.task-box{
+    position: relative;
+    border-radius: 12px;
+    width: 100%;
+    margin: 20px 0;
+    padding: 16px;
+    cursor: pointer;
+    box-shadow: 2px 2px 4px 0px rgba(235, 235, 235, 1);
+}
+
+.task-box:hover{
+    transform: scale(1.02);
+}
+
+.time{
+    margin-bottom: 6px;
+    opacity: 0.4;
+    font-size: 10px;
+}
+
+.task-name{
+    font-size: 14px;
+    font-weight: 500;
+    opacity: 0.6;
+}
+.yellow{
+    background-color: var(--box-color);
+}
+
+.blue{
+    background-color: var(--box-color-2);
+}
+
+.red{
+    background-color: var(--box-color-3);
+}
+
+.green{
+    background-color: var(--box-color-4);
+}
+
+.more-buttons{
+    position: absolute;
+    width: 3;
+    height: 3px;
+    border-radius: 50%;
+    background-color: #8e92a4;
+    box-shadow: 0 -4px 0 0 #8e92a4,
+    0 4px 0 0 #8e92a4;
+    opacity: 0.4;
+    right: 20px;
+    top: 30px;
+    cursor: pointer;
+}
+
+/*Responsive*/
+
+@media screen and (max-width: 900px){
+    .left-bar{
+        display: none;
+    }
+}
+
+@media screen and (max-width: 700px) {
+    .task-manager{
+        flex-direction: column;
+        overflow-y: auto;
+    }
+    .right-bar,
+    .page-content{
+        width: 100%;
+        display: block;
+    }
+    .task-wrapper{
+        height: auto;
+    }
+}
+
+@media screen and (max-width: 520px){
+    .page-content{
+        padding: 40px 10px 0 10px;
+    }
+    .right-content{
+        padding: 10px 16px;
+    }
+    .category{
+        padding: 20px;
+    }
+}
