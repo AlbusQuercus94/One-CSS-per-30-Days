@@ -100,7 +100,7 @@ Agora vamos criar a barra esquerda da nossa pagina dentro de uma <div></div>  co
 
 Nossa página encontra-se assim:
 
-![HTML-left-bar](#)
+![HTML-left-bar](https://github.com/AlbusQuercus94/One-CSS-per-30-Days/blob/main/Desafios/Dia_3/Images/Images-README/HTML-Left-Bar.png)
 
 Para não ser confuso, a cada parte do html feito, vamos para o css e estilizamos ele. Então criamos um .css onde, de início, importamos do Google Fonts a DM Sans nos tamanhos 400, 600 e 700. Depois criamos as configurações default (*) e as variáveis que serão usadas de forma global. O início do css fica assim:
 
@@ -269,7 +269,7 @@ Agora vamos para a estilização da barra esquerda, cuja a classe é "left-bar",
 
 Após o .css feito, nossa página terá a seguinte aparência:
 
-![CSS-left-bar](#)
+![CSS-left-bar](https://github.com/AlbusQuercus94/One-CSS-per-30-Days/blob/main/Desafios/Dia_3/Images/Images-README/CSS-Left-Bar.png)
 
 Agora vamos para a segunda parte, a classe "page-content", onde se encontra o conteúdo da página. Essa parte é mais um exemplo para usar o .css, para dá um corpo maior para a página. Também essa é a parte que ficará visível no fim, quando for aplicado a responsividade. 
 
@@ -510,7 +510,7 @@ label .label-text:before{
 
 Com o conteúdo da página inserido e seu estilo feito, teremos a seguinte aparência:
 
-![HTML-CSS-page-Content](#)
+![HTML-CSS-page-Content](https://github.com/AlbusQuercus94/One-CSS-per-30-Days/blob/main/Desafios/Dia_3/Images/Images-README/HTML-CSS-Page-Content.png)
 
 Por fim, adicionamos a classe "right-bar" para finalizar o conteúdo experimental de nossa página, para que possamos ver um bom exemplo da responsividade. Aqui vamos usar imagens tiradas de do site [Pexels](https://www.pexels.com/) (para mais informações das fotos, entrar no arquivo [Images-Source.txt](https://github.com/AlbusQuercus94/One-CSS-per-30-Days/blob/main/Desafios/Dia_3/Images/Images-Source.txt)). Seguindo os mesmo passos de antes, primeiro o .html:
 
@@ -757,17 +757,17 @@ E agora, a parte principal, o Responsive da página, será feita no .css e terem
 
 Então temos nossa página sem a responsividade ativa (o resultado final) fica assim:
 
-![No-Responsive](#)
+![No-Responsive](https://github.com/AlbusQuercus94/One-CSS-per-30-Days/blob/main/Desafios/Dia_3/Images/Images-README/No-Responsive.png)
 
 Com a responsividade de 900px:
 
-![900px-responsive](#)
+![900px-responsive](https://github.com/AlbusQuercus94/One-CSS-per-30-Days/blob/main/Desafios/Dia_3/Images/Images-README/900px-Responsive.png)
 
 Com a responsividade de 700px:
 
-![700px-responsive](#)
+![700px-responsive](https://github.com/AlbusQuercus94/One-CSS-per-30-Days/blob/main/Desafios/Dia_3/Images/Images-README/700px-Responsive.png)
 
 Por fim, com a responsividade de 520px:
 
-![520px-responsive](#)
+![520px-responsive](https://github.com/AlbusQuercus94/One-CSS-per-30-Days/blob/main/Desafios/Dia_3/Images/Images-README/520px-Responsive.png)
 
