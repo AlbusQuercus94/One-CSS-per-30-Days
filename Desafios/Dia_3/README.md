@@ -4,6 +4,8 @@
 
  O desafio do dia é criar uma página gerenciadora de tarefas responsiva. O responsivo será determinado com a mudança da largura da tela nos valores: 900px, 700px e 520px.
 
+ Codepen = [Painel Responsivo](https://codepen.io/albusquercus94/pen/XWRLmjy)
+
 ## Tecnologias Usadas
 
 * HTML

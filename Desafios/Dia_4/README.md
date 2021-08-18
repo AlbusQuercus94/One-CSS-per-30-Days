@@ -4,6 +4,8 @@
 
  Desafio do dia é fazer uma barra de navegação lateral com um aspecto mais moderno usando o CSS. Aqui usamos ícones retirados do site [Font Awesome](https://fontawesome.com/).
 
+ Codepen = [Barra Lateral de Navegação](https://codepen.io/albusquercus94/pen/OJmeybW)
+
 ## Tecnologias Usadas
 
 * HTML

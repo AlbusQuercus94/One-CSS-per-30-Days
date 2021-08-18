@@ -4,6 +4,8 @@
 
 O desafio do dia é a criação de botões com os ícones das redes sociais que criarão balões (pop-up)  com os seus respectivos nomes. Nesse desafio retiraremos os ícones das redes sociais do site [Font Awesome](https://fontawesome.com/).
 
+Codepen = [Ícones Pop-Up](https://codepen.io/albusquercus94/pen/zYwVvoy)
+
 ## Tecnologias Usadas
 
 * HTML
