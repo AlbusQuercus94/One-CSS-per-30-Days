@@ -1,5 +1,7 @@
 # Dia 3 Painel Responsivo Gerenciador de Tarefas
 
+## Descrição
+
  O desafio do dia é criar uma página gerenciadora de tarefas responsiva. O responsivo será determinado com a mudança da largura da tela nos valores: 900px, 700px e 520px.
 
 ## Tecnologias Usadas
