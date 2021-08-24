@@ -20,7 +20,6 @@ No exercício de hoje fazemos uma área de perguntas mais frequentes com abas qu
 * [CSS Unidades](https://www.w3schools.com/cssref/css_units.asp)
 * [CSS Seletor Atributos](https://www.w3schools.com/css/css_attribute_selectors.asp)
 * [CSS Seletor Will-Change](https://css-tricks.com/almanac/properties/w/will-change/)
-* 
 
 ## Passo a Passo
 
