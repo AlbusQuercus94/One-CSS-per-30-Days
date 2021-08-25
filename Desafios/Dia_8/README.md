@@ -150,5 +150,5 @@ body{
 
 Eis o resultado do exercício de hoje:
 
-![Resultado-Final-Dia-8](#)
+![Resultado-Final-Dia-8](https://github.com/AlbusQuercus94/One-CSS-per-30-Days/blob/main/Desafios/Dia_8/Imagens/Resultado-Final-Dia-8.gif)
 
