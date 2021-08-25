@@ -1,0 +1,4 @@
+img-1 = https://www.pexels.com/pt-br/foto/fantasia-de-fantasma-3993249/
+img-2 = https://www.pexels.com/pt-br/foto/fotografia-da-floresta-1671325/
+img-3 = https://www.pexels.com/pt-br/foto/homem-segurando-o-corrimao-cinza-1732370/
+img-4 = https://www.pexels.com/pt-br/foto/pecas-de-xadrez-de-metal-a-bordo-na-sala-5691871/
