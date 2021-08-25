@@ -20,7 +20,7 @@ body{
     max-width: 1200px;
     padding: 30px;
 }
-
+/*Aqui formatamos o cartão e o seu comportamento em relação ao usuário. O comportamento só é visto quando o hover é ativo.*/
 .game-card{
     position: relative;
     z-index: 1;
@@ -28,7 +28,7 @@ body{
     padding-bottom: 150%;
     perspective: 1000px;
 }
-
+/*Formatamos o desenho do cartão, a capa, e o comportamento da capa quando o hover for ativo.*/
 .game-card_cover{
     position: absolute;
     z-index: 1;
@@ -46,7 +46,7 @@ body{
     transform: skewX(0.001deg);
     transition: transform 0.35s ease-in-out;
 }
-
+/*Aqui colocamos um brilho sobre a capa do cartão e o comportamento desse brilho.*/
 .game-card_cover::after{
     display: block;
     content: '';
@@ -66,16 +66,16 @@ body{
     transform: translateY(-20%);
     will-change: transform;
     transition: transform 0.65s cubic-bezier(0.18, 0.9, 0.58, 1);
-}
-
+}*/
+/*Essa parte não entendi o que modifica na página*/
 .game-card:hover .game-card_cover{
     transform: rotateX(7deg) translateY(-6px);
 }
-
+/*O comportamento do brilho quando o mouse está em cima*/
 .game-card:hover .game-card_cover::after{
     transform: translateY(0%);
 }
-
+/*A partir desta linha é a formatação e definição de comportamento das sombras.*/
 .game-card::before{
     display: block;
     content: '';
