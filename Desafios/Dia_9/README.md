@@ -125,4 +125,4 @@ p{
 
 Resultado das gotas usando o css:
 
-![Resultado-Final-Dia-9](#)
+![Resultado-Final-Dia-9](https://github.com/AlbusQuercus94/One-CSS-per-30-Days/blob/main/Desafios/Dia_9/Imagens/Resultado-Final-Dia-9.jpg)
