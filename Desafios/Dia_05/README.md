@@ -69,7 +69,7 @@ Primeiro vamos para a criação do arquivo HTML, onde teremos um link a mais na 
 
 Antes da estilização, nossa página terá a seguinte aparência:
 
-![Resultado-Parcial-Icones](https://github.com/AlbusQuercus94/One-CSS-per-30-Days/blob/main/Desafios/Dia_5/Imagens/Resultado-Parcial-Icones.jpg)
+![Resultado-Parcial-Icones](https://github.com/AlbusQuercus94/One-CSS-per-30-Days/blob/main/Desafios/Dia_05/Imagens/Resultado-Parcial-Icones.jpg)
 
 Agora vamos para o css, não tem muito segredo, contudo temos uma propriedade, ou uma regra, nova que usaremos: !important. É uma regra usada no css para que aquela propriedade sobrescreva qualquer outra que viria subistituí-la.  
 
@@ -200,4 +200,4 @@ body{
 
 O resultado do código é o seguinte:
 
-![Resultado-Final-ícones](https://github.com/AlbusQuercus94/One-CSS-per-30-Days/blob/main/Desafios/Dia_5/Imagens/Resultado-Final-Icone.gif)
+![Resultado-Final-ícones](https://github.com/AlbusQuercus94/One-CSS-per-30-Days/blob/main/Desafios/Dia_05/Imagens/Resultado-Final-Icone.gif)

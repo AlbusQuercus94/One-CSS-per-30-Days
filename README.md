@@ -10,8 +10,8 @@
 O objetivo desses desafios é melhorar os conhecimentos em CSS através de desafios diários durante um intervalo de tempo. Espero que no fim desses desafios eu tenha conhecimento suficiente de CSS.
 
 ## Desafios
-* [Dia 1 - Botões Brilhantes de Néon](https://github.com/AlbusQuercus94/One-CSS-per-30-Days/tree/main/Desafios/Dia_1)
-* [Dia 2 - Neomorfismo Formulários Login e SignUp](https://github.com/AlbusQuercus94/One-CSS-per-30-Days/tree/main/Desafios/Dia_2)
-* [Dia 3 - Painel Responsivo Gerenciador de Tarefas](https://github.com/AlbusQuercus94/One-CSS-per-30-Days/tree/main/Desafios/Dia_3)
-* [Dia 4 - Barra de Navegação Lateral](https://github.com/AlbusQuercus94/One-CSS-per-30-Days/tree/main/Desafios/Dia_4)
-* [Dia 5 - Ícones de Redes Sociais com Popup](https://github.com/AlbusQuercus94/One-CSS-per-30-Days/tree/main/Desafios/Dia_5)
+* [Dia 1 - Botões Brilhantes de Néon](https://github.com/AlbusQuercus94/One-CSS-per-30-Days/tree/main/Desafios/Dia_01)
+* [Dia 2 - Neomorfismo Formulários Login e SignUp](https://github.com/AlbusQuercus94/One-CSS-per-30-Days/tree/main/Desafios/Dia_02)
+* [Dia 3 - Painel Responsivo Gerenciador de Tarefas](https://github.com/AlbusQuercus94/One-CSS-per-30-Days/tree/main/Desafios/Dia_03)
+* [Dia 4 - Barra de Navegação Lateral](https://github.com/AlbusQuercus94/One-CSS-per-30-Days/tree/main/Desafios/Dia_04)
+* [Dia 5 - Ícones de Redes Sociais com Popup](https://github.com/AlbusQuercus94/One-CSS-per-30-Days/tree/main/Desafios/Dia_05)

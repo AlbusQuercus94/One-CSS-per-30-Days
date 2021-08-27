@@ -98,7 +98,7 @@ Teremos também um arquivo javascript, então já adiciona-lo ao final. O html �
 
 A página no momento deve ficar assim:
 
-![Resultado-Parcial-Dia-7](https://github.com/AlbusQuercus94/One-CSS-per-30-Days/blob/main/Desafios/Dia_7/Imagens/Resultado-Parcial-Dia-7.png)
+![Resultado-Parcial-Dia-7](https://github.com/AlbusQuercus94/One-CSS-per-30-Days/blob/main/Desafios/Dia_07/Imagens/Resultado-Parcial-Dia-7.png)
 
 Agora vamos para o css e como ele é um pouco mais extenso, deixei comentado com o que entendi e aprendi. Alguns seletores não comentei pois eles são auto explicativos. Eis o código do css:
 
@@ -256,5 +256,5 @@ O elemento escolhido é através de um EventListener, por isso na função o ite
 
 O resultado deve ser o seguinte:
 
-![Resultado-Final-Dia-7](https://github.com/AlbusQuercus94/One-CSS-per-30-Days/blob/main/Desafios/Dia_7/Imagens/Resultado-Final-Dia-7.gif)
+![Resultado-Final-Dia-7](https://github.com/AlbusQuercus94/One-CSS-per-30-Days/blob/main/Desafios/Dia_07/Imagens/Resultado-Final-Dia-7.gif)
 

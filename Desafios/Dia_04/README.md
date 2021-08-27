@@ -70,7 +70,7 @@ Agora vamos para o conteúdo da página, a barra de navegação ficará em uma t
 
 Após a adição dessas linhas, a página deve aparecer da seguinte forma:
 
-![Resultado-Parcial-Barra-Lateral](https://github.com/AlbusQuercus94/One-CSS-per-30-Days/blob/main/Desafios/Dia_4/Imagens/Resultado-Parcial-Barra-Lateral.jpg)
+![Resultado-Parcial-Barra-Lateral](https://github.com/AlbusQuercus94/One-CSS-per-30-Days/blob/main/Desafios/Dia_04/Imagens/Resultado-Parcial-Barra-Lateral.jpg)
 
 Agora vamos para a estilização do HTML. Não é muito grande, mas teve uma parte um pouco difícil de entender como ocorre. O uso da pseudo-classe "::after" é usado para adicionar um conteúdo após uma tag determinada. Aqui a configuração faz com que pareça que o "after" está sendo acionado na tag anterior, mas é um erro de entendimento.
 
@@ -150,4 +150,4 @@ aside p{
 
 Então o resultado da página deve ser este:
 
-![Resultado-Final-Barra-Lateral](https://github.com/AlbusQuercus94/One-CSS-per-30-Days/blob/main/Desafios/Dia_4/Imagens/Resultado-Final-Barra-Lateral.gif)
+![Resultado-Final-Barra-Lateral](https://github.com/AlbusQuercus94/One-CSS-per-30-Days/blob/main/Desafios/Dia_04/Imagens/Resultado-Final-Barra-Lateral.gif)

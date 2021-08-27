@@ -169,4 +169,4 @@ input:checked ~ .slider-3{
 
 O resultado do código é o seguinte:
 
-![Resultado-Botao-On-Off](https://github.com/AlbusQuercus94/One-CSS-per-30-Days/blob/main/Desafios/Dia_6/Imagens/Resultado-Final-Botao-Neomorfismo.gif)
+![Resultado-Botao-On-Off](https://github.com/AlbusQuercus94/One-CSS-per-30-Days/blob/main/Desafios/Dia_06/Imagens/Resultado-Final-Botao-Neomorfismo.gif)

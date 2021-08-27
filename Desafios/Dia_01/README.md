@@ -209,4 +209,4 @@ a span:nth-child(4){
 
 Assim a nossa página fica da seguinte forma:
 
-* ![1 Dia Botão Brilhante Néon](https://github.com/AlbusQuercus94/One-CSS-per-30-Days/blob/main/Desafios/Dia_1/1%20dia%20bot%C3%A3o%20brilhante.gif)
+* ![1 Dia Botão Brilhante Néon](https://github.com/AlbusQuercus94/One-CSS-per-30-Days/blob/main/Desafios/Dia_01/1%20dia%20bot%C3%A3o%20brilhante.gif)
