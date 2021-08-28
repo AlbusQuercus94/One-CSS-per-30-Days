@@ -8,6 +8,51 @@
     <link rel="stylesheet" href="styles.css">
 </head>
 <body>
-    
+    <header>
+        <h1>Nosso Preço</h1>
+        <div class="toggle">
+            <label>Anualmente</label>
+            <div class="toggle-btn">
+                <input type="checkbox" class="checkbox" id="checkbox" />
+                <label for="checkbox" id="sub" class="sub">
+                    <div class="circle"></div>
+                </label>
+            </div>
+
+            <label>Mensal</label>
+        </div>
+    </header>
+    <div class="cards">
+        <div class="card shadow">
+            <ul>
+                <li class="pack">Básico</li>
+                <li class="price bottom-bar" id="basic">R&dollar; 199.90</li>
+                <li class="bottom-bar">500GB de Armazenamento</li>
+                <li class="bottom-bar">Máximo de 2 Usuários</li><li class="bottom-bar">Envio de 3GB</li>
+                <li><button class="btn">Saiba Mais</button></li>
+            </ul>
+        </div>
+
+        <div class="card active">
+            <ul>
+                <li class="pack">Profissional</li>
+                <li class="price bottom-bar" id="professional">R&dollar; 249.90</li>
+                <li class="bottom-bar">1TB de Armazenamento</li>
+                <li class="bottom-bar">Máximo de 5 Usuários</li><li class="bottom-bar">Envio de 10GB</li>
+                <li><button class="btn active-btn">Saiba Mais</button></li>
+            </ul>
+        </div>
+
+        <div class="card shadow">
+            <ul>
+                <li class="pack">Mestre</li>
+                <li class="price bottom-bar" id="master">R&dollar; 399.90</li>
+                <li class="bottom-bar">2TB de Armazenamento</li>
+                <li class="bottom-bar">Máximo de 10 Usuários</li><li class="bottom-bar">Envio de 20GB</li>
+                <li><button class="btn">Saiba Mais</button></li>
+            </ul>
+        </div>
+    </div>
+    <script src="script.js"></script>
 </body>
 </html>
