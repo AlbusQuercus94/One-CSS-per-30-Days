@@ -40,7 +40,7 @@ Numa delas tem um span dentro do label, que é para quando há notificação. O 
 
 Assim o código fica da seguinte forma, antes do css:
 
-![Resultado-Parcial-Dia-11](https://github.com/AlbusQuercus94/One-CSS-per-30-Days/tree/main/Desafios/Dia_11/Imagens/Resultado-Parcial-Dia-11.png)
+![Resultado-Parcial-Dia-11](https://github.com/AlbusQuercus94/One-CSS-per-30-Days/blob/main/Desafios/Dia_11/Imagens/Resultado-Parcial-Dia-11.png)
 
 No css, como tenho feito, vou por o que achei mais complicado de entender como comentário e o que achei intuitivo sem comentar:
 
@@ -159,4 +159,4 @@ input[id='radio-3']:checked ~ .glider{
 
 Assim fica o resultado do exercício:
 
-![Resultado-Final-Dia-11](https://github.com/AlbusQuercus94/One-CSS-per-30-Days/tree/main/Desafios/Dia_11/Imagens/Resultado-Final-Dia-11.gif)
+![Resultado-Final-Dia-11](https://github.com/AlbusQuercus94/One-CSS-per-30-Days/blob/main/Desafios/Dia_11/Imagens/Resultado-Final-Dia-11.gif)
