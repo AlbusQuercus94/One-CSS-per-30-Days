@@ -1,0 +1,153 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    height: 100vh;
+    background: linear-gradient(
+        0deg,
+        rgba(179, 179, 179,0.5) 0%,
+        rgba(255, 255, 255,0.75) 100%);
+    
+}
+
+.container.title{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    padding: 25px;
+}
+
+a{
+    text-decoration: underline;
+    font-weight: bolder;
+
+}
+.container{
+    /* background: linen; */
+    margin-top: 10px;
+}
+
+.items-days{
+    margin-top: 0;
+    display: flex;
+    justify-content: center;
+}
+
+.list{
+    column-count: 5;
+    column-width: auto;
+}
+
+.btn-home {
+    position: relative;
+    display: inline-block;
+    padding: 15px 30px;
+    margin: 25px 0;
+    color: #f40303;
+    text-decoration: none;
+    text-transform: uppercase;
+    transition: 0.5s;
+    letter-spacing: 1px;
+    overflow: hidden;
+    margin-right: 50px;
+}
+.btn-home:hover{
+    background: #f40303;
+    color: #050801;
+    box-shadow: 
+    0 0 004px #f40303, 
+    0 0 008px #f40303,
+    0 0 016px #f40303,
+    0 0 032px #f40303;
+    -webkit-box-reflect: below 1px linear-gradient(transparent, #0005);
+}
+
+.btn-home span{
+    position: absolute;
+    display: block;
+}
+
+/* Animação da borda superior*/
+.btn-home span:nth-child(1){
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 2px;
+    background: linear-gradient(90deg, transparent, #f40303);
+    animation: animate1 1s linear infinite;
+}
+@keyframes animate1 {
+    0% {
+        left: -100%;
+    }
+    50%,
+    100% {
+        left: 100%;
+    }
+}
+
+/* Animação da borda direita*/
+.btn-home span:nth-child(2){
+    top:-100%;
+    right: 0;
+    width: 2px;
+    height: 100%;
+    background: linear-gradient(180deg, transparent, #f40303);
+    animation: animate2 1s linear infinite;
+    animation-delay: 0.25s;
+}
+
+@keyframes animate2 {
+    0% {
+        top:-100%;
+    }
+    50%,
+    100%{
+        top:100%;
+    }
+}
+
+/* Animação da borda inferior*/
+.btn-home span:nth-child(3){
+    bottom:0;
+    right: 0;
+    width: 100%;
+    height: 2px;
+    background: linear-gradient(270deg, transparent, #f40303);
+    animation: animate3 1s linear infinite;
+    animation-delay: 0.5s;
+}
+@keyframes animate3 {
+    0% {
+        right: -100%;
+    }
+    50%,
+    100%{
+        right: 100%;
+    }
+}
+
+/* Animação da borda esquerda*/
+.btn-home span:nth-child(4){
+    bottom:-100%;
+    left:0;
+    width: 2px;
+    height: 100%;
+    background: linear-gradient(360deg, transparent, #f40303);
+    animation: animate4 1s linear infinite;
+    animation-delay: 0.75s;
+}
+@keyframes animate4 {
+    0% {
+        bottom: -100%;
+    }
+    50%,
+    100%{
+        bottom: 100%;
+    }
+}
