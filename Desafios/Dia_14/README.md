@@ -422,4 +422,4 @@ body{
 
 Assim temos os seguinte resultado final:
 
-![Resultado-Final-Dia-14](https://github.com/AlbusQuercus94/One-CSS-per-30-Days/blob/main/Desafios/Dia_14/Imagens/Resultado-Final-Dia-14.gif)
+![Resultado-Final-Dia-14](https://github.com/AlbusQuercus94/One-CSS-per-30-Days/blob/main/Desafios/Dia_14/Imagens/Resultado-Final-Dia-14.png)
