@@ -13,6 +13,11 @@ body {
     
 }
 
+.container{
+    /* background: linen; */
+    margin-top: 0px;
+}
+
 .container.title{
     display: flex;
     flex-direction: column;
@@ -25,11 +30,6 @@ body {
 a{
     text-decoration: underline;
     font-weight: bolder;
-
-}
-.container{
-    /* background: linen; */
-    margin-top: 10px;
 }
 
 .items-days{
@@ -150,4 +150,69 @@ a{
     100%{
         bottom: 100%;
     }
+}
+
+
+.background{
+    position: absolute;
+    top: 0%;
+    height: 100%;
+    width: 100%;
+    background: linear-gradient(
+        0deg,
+        rgba(179, 179, 179,0.5) 0%,
+        rgba(255, 255, 255,0.75) 100%);
+    z-index: -1;
+    transition: all 0.5s;
+}
+
+input[type='checkbox']{
+    height: 0;
+    width: 0;
+    visibility: hidden;
+}
+
+label{
+    cursor: pointer;
+    left: 50%;
+    text-indent: -9999px;
+    width: 2rem;
+    height: 1rem;
+    background: rgb(255, 0, 0);
+    display: block;
+    border-radius: 100px;
+    position: absolute;
+    transition: all 0.5s;
+}
+
+.s{
+    position: absolute;
+    top:2.2%;
+    left: 50.2%;
+    width: 0.84rem;
+    height: 0.84rem;
+    background: #ccc;
+    border-radius: 90px;
+    transition: 0.5s;
+    transform-origin: 105% 50%;
+    pointer-events: none;
+}
+
+input:checked + label{
+    transform: rotate(180deg);
+}
+
+input:checked ~ .s{
+    transform: rotate(-180deg);
+    background: #00c801;
+}
+
+input:checked ~ 
+.background,
+input:checked ~ 
+.container,
+input:checked ~ 
+.container > .list > .btn-home{
+    background: black;
+    color:#ccc;
 }
