@@ -6,9 +6,93 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Predição de Procura</title>
     <link rel="stylesheet" href="estilos.css">
-    
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css" integrity="sha512-1ycn6IcaQQ40/MKBW2W4Rhis/DbILU74C1vSrLJxCq57o941Ym01SwNsOMqvEBFlcgUa6xLiPY/NS5R+E6ztJQ==" crossorigin="anonymous" referrerpolicy="no-referrer" />
 </head>
 <body>
+    <div class="searchBox">
+        <button class="btn-menu">
+            <i class="fas fa-bars"></i>
+        </button>
+        <input type="text" placeholder="Procurar" name="search" class="search" id="search">
+        <button class="btn-search">
+            <i class="fas fa-search"></i>
+        </button>
+    </div>
+
+    <div class="search-modal" id="modal">
+        <div class="search-modal-header">
+            <h3>Procurar</h3>
+            <span id="close">
+                <i class="far fa-times-circle"></i>
+            </span>
+        </div>
+        <div class="search-modal-body">
+            <div class="message">
+                <div class="message-avatar">
+                    <img src="./Imagens/img1.jpg" alt="img1.jpg">
+                </div>
+                <div class="message-body">
+                    <p>Nova notificação de Pessoa 1</p>
+                    <small>20s atrás</small>
+                </div>
+            </div>
+            <div class="message">
+                <div class="message-avatar">
+                    <img src="./Imagens/img2.jpg" alt="img2.jpg">
+                </div>
+                <div class="message-body">
+                    <p>Nova notificação de Pessoa 2</p>
+                    <small>20s atrás</small>
+                </div>
+            </div>
+            <div class="message">
+                <div class="message-avatar">
+                    <img src="./Imagens/img3.jpg" alt="img3.jpg">
+                </div>
+                <div class="message-body">
+                    <p>Nova notificação de Pessoa 3</p>
+                    <small>20s atrás</small>
+                </div>
+            </div>
+            <div class="message">
+                <div class="message-avatar">
+                    <img src="./Imagens/img4.jpg" alt="img4.jpg">
+                </div>
+                <div class="message-body">
+                    <p>Nova notificação de Pessoa 4</p>
+                    <small>20s atrás</small>
+                </div>
+            </div>
+            <div class="message">
+                <div class="message-avatar">
+                    <img src="./Imagens/img5.jpg" alt="img5.jpg">
+                </div>
+                <div class="message-body">
+                    <p>Nova notificação de Pessoa 5</p>
+                    <small>20s atrás</small>
+                </div>
+            </div>
+            <div class="message">
+                <div class="message-avatar">
+                    <img src="./Imagens/img6.jpg" alt="img6.jpg">
+                </div>
+                <div class="message-body">
+                    <p>Nova notificação de Pessoa 6</p>
+                    <small>20s atrás</small>
+                </div>
+            </div>
+            <div class="message">
+                <div class="message-avatar">
+                    <img src="./Imagens/img7.jpg" alt="img7.jpg">
+                </div>
+                <div class="message-body">
+                    <p>Nova notificação de Pessoa 7</p>
+                    <small>20s atrás</small>
+                </div>
+            </div>
+        </div>
+    </div>
+
     <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.6.0/jquery.min.js" referrerpolicy="no-referrer"></script>
     <script src="script.js"></script>
 </body>
