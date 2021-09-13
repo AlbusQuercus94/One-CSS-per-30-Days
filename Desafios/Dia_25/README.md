@@ -2,7 +2,7 @@
 
 ## Descrição
 
-Descrição
+Apesar de simples e de ter feito algo parecido antes, o efeito do exercício de hoje é diferente: foi feito usando a propriedade transform. Foi interessante fazer e mais um efeito para ser usado no futuro.
 
 CodePen: [Efeito Mouse sobre Cartão: Apresentação](https://codepen.io/albusquercus94/pen/dyRzGKg)
 
