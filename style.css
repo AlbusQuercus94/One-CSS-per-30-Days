@@ -39,8 +39,9 @@ a{
 }
 
 .list{
-    column-count: 5;
-    column-width: auto;
+    display: grid;
+    grid-template-columns: auto auto auto auto auto;
+    grid-gap: 10px;
 }
 
 .btn-home {
