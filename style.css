@@ -6,6 +6,7 @@
 
 body {
     height: 100vh;
+    width: 100vw;
     background: linear-gradient(
         0deg,
         rgba(179, 179, 179,0.5) 0%,
@@ -59,7 +60,7 @@ a{
 }
 .btn-home:hover{
     background: #f40303;
-    color: #050801;
+    color:#ccc;
     box-shadow: 
     0 0 004px #f40303, 
     0 0 008px #f40303,
@@ -179,7 +180,7 @@ label{
     text-indent: -9999px;
     width: 2rem;
     height: 1rem;
-    background: rgb(255, 0, 0);
+    background: rgb(0, 0, 0);
     display: block;
     border-radius: 100px;
     position: absolute;
@@ -188,24 +189,25 @@ label{
 
 .s{
     position: absolute;
-    top:2.2%;
-    left: 50.2%;
+    top: 2%;
+    left: 50.35%;
     width: 0.84rem;
     height: 0.84rem;
-    background: #ccc;
-    border-radius: 90px;
+    background: rgb(255, 255, 255);
+    border-radius: 90%;
     transition: 0.5s;
-    transform-origin: 105% 50%;
+    transform-origin: 100% 50%;
     pointer-events: none;
 }
 
 input:checked + label{
     transform: rotate(180deg);
+    background: #ccc;
 }
 
 input:checked ~ .s{
     transform: rotate(-180deg);
-    background: #00c801;
+    background: #000000;
 }
 
 input:checked ~ 
@@ -215,5 +217,5 @@ input:checked ~
 input:checked ~ 
 .container > .list > .btn-home{
     background: black;
-    color:#ccc;
+    color: rgb(255, 255, 255);
 }
