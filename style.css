@@ -176,25 +176,26 @@ input[type='checkbox']{
 
 label{
     cursor: pointer;
-    left: 50%;
+    /* left: 50%; */
     text-indent: -9999px;
     width: 2rem;
     height: 1rem;
     background: rgb(0, 0, 0);
     display: block;
     border-radius: 100px;
-    position: absolute;
+    position: relative;
     transition: all 0.5s;
 }
 
 .s{
-    position: absolute;
-    top: 2%;
-    left: 50.35%;
-    width: 0.84rem;
-    height: 0.84rem;
+    display: block;
+    position: relative;
+    top: -14.7px;
+    left: -6.5px;
+    width: 0.84em;
+    height: 0.84em;
     background: rgb(255, 255, 255);
-    border-radius: 90%;
+    border-radius: 100%;
     transition: 0.5s;
     transform-origin: 100% 50%;
     pointer-events: none;
