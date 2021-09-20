@@ -28,6 +28,11 @@ body {
     padding: 25px;
 }
 
+h1,
+p{
+    transition: all 0.1s;
+}
+
 a{
     text-decoration: underline;
     font-weight: bolder;
@@ -204,7 +209,7 @@ label{
 
 input:checked + label{
     transform: rotate(180deg);
-    background: #ccc;
+    background: rgb(255, 255, 255);
 }
 
 input:checked ~ .s{
@@ -214,8 +219,8 @@ input:checked ~ .s{
 
 input:checked ~ 
 .background,
-input:checked ~ 
-.container,
+input:checked ~ p,
+input:checked ~ h1,
 input:checked ~ 
 .container > .list > .btn-home{
     background: black;
