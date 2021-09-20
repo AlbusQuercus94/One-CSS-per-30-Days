@@ -55,6 +55,7 @@ a{
     text-transform: uppercase;
     transition: 0.5s;
     letter-spacing: 1px;
+    text-align: center;
     overflow: hidden;
     margin-right: 50px;
 }
