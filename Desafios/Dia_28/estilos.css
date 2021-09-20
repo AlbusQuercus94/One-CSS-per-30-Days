@@ -1,0 +1,67 @@
+@import url('https://fonts.googleapis.com/css2?family=Raleway&display=swap');
+
+body{
+    background-color: #212121;
+    height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.btn{
+    background-color: #fff;
+    border: none;
+    border-bottom: 6px solid turquoise;
+    border-top: 6px solid turquoise;
+    color: #566;
+    cursor: pointer;
+    display: inline-block;
+    font-family: 'Raleway', Arial, Helvetica, sans-serif;
+    font-size: 14px;
+    font-weight: 500;
+    height: 46px;
+    letter-spacing: 3px;
+    line-height: 34px;
+    margin: 15px;
+    outline: none;
+    padding: 0 10px;
+    position: relative;
+    text-transform: uppercase;
+}
+
+.btn::before,
+.btn::after{
+    box-sizing: border-box;
+    transition: all 0.3s;
+    background-color: #fff;
+    border-radius: 100%;
+    top: -6px;
+    content: '';
+    height: 46px;
+    position: absolute;
+    width: 46px;
+    border: 6px solid #ddd;
+    transform: rotate(45deg);
+    z-index: -1;
+}
+
+.btn::before{
+    right: -23px;
+    border-left-color: turquoise;
+    border-bottom-color: turquoise;
+}
+
+.btn::after{
+    left: -23px;
+    border-right-color: turquoise;
+    border-top-color: turquoise;
+}
+
+.btn:hover{
+    background-color: #fff;
+}
+
+.btn:hover::after,
+.btn:hover::before{
+    transform: rotate(225deg);
+}
