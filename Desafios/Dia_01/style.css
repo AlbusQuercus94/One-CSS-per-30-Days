@@ -10,9 +10,6 @@
 /* Organizando agora o body do corpo*/ 
 
 body {
-    display: flex;
-    justify-content: center;
-    align-items: center;
     height: 100vh;
     background: #050801;
     font-family: 'Raleway', sans-serif;
@@ -20,7 +17,7 @@ body {
 }
 
 /* Organizando as tags ancoras e adicionando uma propriedade hover. Também definimos cores diferentes para cada âncora*/
-a{
+.geral a{
     position: relative;
     display: inline-block;
     padding: 25px 30px;
@@ -33,7 +30,7 @@ a{
     overflow: hidden;
     margin-right: 50px;
 }
-a:hover{
+.geral a:hover{
     background: #03e9f4;
     color: #050801;
     box-shadow: 
@@ -43,22 +40,22 @@ a:hover{
     0 0 200px #03e9f4;
     -webkit-box-reflect: below 1px linear-gradient(transparent, #0005);
 }
-a:nth-child(1){
+.geral a:nth-child(1){
     filter: hue-rotate(270deg);
 }
-a:nth-child(2){
+.geral a:nth-child(2){
     filter: hue-rotate(110deg);
 }
 
 /*Criando animação ao redor dos botões
 Aqui determinamos o comportamento do elemento span para as animações*/
-a span{
+.geral a span{
     position: absolute;
     display: block;
 }
 
 /* Animação da borda superior*/
-a span:nth-child(1){
+.geral a span:nth-child(1){
     top: 0;
     left: 0;
     width: 100%;
@@ -77,7 +74,7 @@ a span:nth-child(1){
 }
 
 /* Animação da borda direita*/
-a span:nth-child(2){
+.geral a span:nth-child(2){
     top:-100%;
     right: 0;
     width: 2px;
@@ -98,7 +95,7 @@ a span:nth-child(2){
 }
 
 /* Animação da borda inferior*/
-a span:nth-child(3){
+.geral a span:nth-child(3){
     bottom:0;
     right: 0;
     width: 100%;
@@ -118,7 +115,7 @@ a span:nth-child(3){
 }
 
 /* Animação da borda esquerda*/
-a span:nth-child(4){
+.geral a span:nth-child(4){
     bottom:-100%;
     left:0;
     width: 2px;
@@ -135,4 +132,102 @@ a span:nth-child(4){
     100%{
         bottom: 100%;
     }
+}
+
+
+/*Organizando navegação*/
+.container{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.geral{
+    height: 50vh;
+}
+
+.nav {
+    display: flex;
+    justify-content: center;
+}
+
+.nav .icon{
+    position: relative;
+    background-color: #ffffff;
+    border-radius: 50%;
+    padding: 15px;
+    margin: 10px;
+    width: 50px;
+    height: 50px;
+    font-size: 18px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    /* box-shadow: 0 10px 10px rgba(0, 0, 0, 0.1); */
+    cursor: pointer;
+    transition: all 0.2s cubic-bezier(0.68, -0.55, 0.265, 1.55);
+}
+
+.nav .tooltip{
+    position: absolute;
+    top: 0;
+    font-size: 14px;
+    background-color: #ffffff;
+    color: #ffffff;
+    padding: 5px 8px;
+    border-radius: 5px;
+    box-shadow: 0 10px 10px rgba(0, 0, 0, 0.1);
+    opacity: 0;
+    pointer-events: none; /*Nova Propriedade*/
+    transition: all 0.3s cubic-bezier(0.68, -0.55, 0.265, 1.55);
+}
+
+.nav .icon:hover .tooltip{
+    top: -45px;
+    opacity: 1;
+    visibility: visible;
+    pointer-events: auto;
+}
+
+.nav .tooltip::before{
+    position: absolute;
+    content: "";
+    height: 8px;
+    width: 8px;
+    background-color: #ffffff;
+    bottom: -3px;
+    left: 50%;
+    transform: translate(-50%) rotate(45deg);
+    transition: all 0.3s cubic-bezier(0.68, -0.55, 0.265, 1.55);/*Pesquisar Cubic-Bezier*/
+}
+
+.nav a{
+    color: #050801;
+}
+
+.nav .icon:hover span,
+.nav .icon:hover .tooltip{
+    text-shadow: 0px -1px 0px rgba(0, 0, 0, 0.1);
+}
+
+.nav .back:hover,
+.nav .back:hover .tooltip,
+.nav .back:hover .tooltip::before{
+    background-color: #3b00df;
+    color: #ffffff;
+}
+
+.nav .home:hover,
+.nav .home:hover .tooltip,
+.nav .home:hover .tooltip::before{
+    background-color: #0060df;
+    color: #ffffff;
+}
+
+.nav .next:hover,
+.nav .next:hover .tooltip,
+.nav .next:hover .tooltip::before{
+    background-color: #009fc7;
+    color: #ffffff;
 }
